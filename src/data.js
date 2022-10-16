@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-const links = [
+export const links = [
   {
     id: 1,
     url: "/",
@@ -14,25 +14,25 @@ const links = [
   },
   {
     id: 3,
-    url: "/projects",
-    text: "projects",
-  },
-  {
-    id: 4,
     url: "/contact",
     text: "contact",
   },
   {
+    id: 4,
+    url: "/help",
+    text: "help",
+  },
+  {
     id: 5,
-    url: "/profile",
-    text: "profile",
+    url: "/projects",
+    text: "projects",
   },
 ];
 
-const social = [
+export const social = [
   {
     id: 1,
-    url: "https://www.twitter.com",
+    url: "https://www.facebook.com",
     icon: <FaFacebook />,
   },
   {
@@ -42,14 +42,12 @@ const social = [
   },
   {
     id: 3,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com",
     icon: <FaLinkedin />,
   },
   {
     id: 4,
-    url: "https://www.twitter.com",
+    url: "https://www.behance.com",
     icon: <FaBehance />,
   },
 ];
-
-export default links && social;
